@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     item.addEventListener('mouseover', function() {
       const menuItem = this.getAttribute('data-menu');
       hideAllMenus();
-      document.querySelector(`.menu-item[data-menu="${menuItem}"] .mega-menu`).style.display = 'flex  ';
+      document.querySelector(`.menu-item[data-menu="${menuItem}"] .mega-menu`).style.display = 'flex';
     });
 
     item.addEventListener('mouseout', function() {
