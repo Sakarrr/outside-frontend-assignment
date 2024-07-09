@@ -184,7 +184,7 @@ $btn_close ='  <svg class="btn-close hidden" xmlns="http://www.w3.org/2000/svg" 
                 <li>Booster</li>
                 <li>Tableware</li>
                 <li>Bundle & Save</li>
-                <a href="#">All Mealtime</a>
+                <a href="#">All Playtime</a>
             </ul>
 
             <div class="slider-header">
