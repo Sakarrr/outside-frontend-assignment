@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Hide topbar on cross-mark click
   const closeBtn = document.querySelector('.topbar-close');
-
   closeBtn.addEventListener('click', () => {
     document.querySelector('.outside-topbar').style.display = 'none'
   });
@@ -126,11 +125,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 500);
   }
 
-  // Select all elements with the class 'splide'
+  // Mount splide slider1
   document.querySelectorAll('.slider1').forEach(splideElement => {
     const parentEl = splideElement.closest('.right-content');
 
-    // Initialize Splide on each element
     let splide = new Splide(splideElement, {
       type: 'slide',
       perPage: 4,
@@ -192,6 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
     updateControlColors();
   });
 
+  // Initialize splide slider2
   new Splide('.slider2', {
     type: 'slide',
     perPage: 3,

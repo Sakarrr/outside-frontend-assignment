@@ -55,6 +55,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  max-width: 1440px;
+  margin: auto;
 }
 .outside-topbar .outside-container span {
   margin: 0 auto;
@@ -80,6 +82,7 @@ body {
 }
 .outside-header-main .outside-container .navbar {
   width: 100%;
+  position: relative;
 }
 .outside-header-main .outside-container .navbar ul {
   display: flex;
@@ -389,7 +392,7 @@ footer {
   margin: 0;
 }
 .content-section .header-left {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .content-section .header-right {
   margin-left: auto;

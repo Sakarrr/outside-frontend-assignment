@@ -45,6 +45,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    max-width: 1440px;
+    margin: auto;
 
     span {
       margin: 0 auto;
@@ -73,6 +75,7 @@ body {
 
     .navbar {
       width: 100%;
+      position: relative;
 
       ul {
         display: flex;
@@ -452,7 +455,7 @@ footer {
   }
 
   .header-left {
-    margin-right: 10px;
+    margin-right: 20px;
   }
 
   .header-right {
