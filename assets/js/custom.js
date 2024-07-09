@@ -108,17 +108,21 @@ document.addEventListener('DOMContentLoaded', function() {
         clearInterval(interval);
 
         const accordin = document.querySelectorAll('.esab__head');
+        let isAccordionClick = false;
 
         accordin.forEach((acc, i) => {
           acc.addEventListener('click', (e) => {
+            isAccordionClick = true;
             swiper.slideTo(i);
-            accordin[i].click();
           });
         });
 
         swiper.on('slideChange', function (e) {
-          if(accordin[e.activeIndex]){
-            accordin[e.activeIndex].click();
+          if (accordin[e.activeIndex]) {
+            if (isAccordionClick === false) {
+              accordin[e.activeIndex].click();
+            }
+            isAccordionClick = false;
           }
         });
       }
