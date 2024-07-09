@@ -33,6 +33,13 @@ body {
   margin: auto;
 }
 
+.outside-container {
+  display:flex;
+  max-width: 1440px;
+  margin: auto;
+  align-items: center;
+}
+
 .outside-topbar {
   position: sticky;
   top: 0;
@@ -41,12 +48,8 @@ body {
   z-index: 99;
 
   .outside-container {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 10px;
-    max-width: 1440px;
-    margin: auto;
 
     span {
       margin: 0 auto;
@@ -61,10 +64,6 @@ body {
   border-bottom: 1px solid #EEEDEB;
 
   .outside-container {
-    display:flex;
-    max-width: 1440px;
-    margin: auto;
-    align-items: center;
     position: relative;
 
     span {
@@ -133,7 +132,6 @@ body {
       width: 100%;
       background-color: #fff;
       padding: 50px 0 50px 30px;
-      //padding-left: 350px !important;
       transition-delay: 2s;
       z-index: 999;
 
@@ -145,7 +143,6 @@ body {
       }
 
       ul {
-        display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 0;
