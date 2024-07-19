@@ -127,6 +127,7 @@ body {
   box-shadow: 0px 16px 24px 0px rgba(0, 0, 0, 0.1);
   padding: 50px 0 50px 150px;
   transition-delay: 2s;
+  cursor: default;
   z-index: 999;
 }
 .outside-header-main .outside-container .mega-menu h3 {
