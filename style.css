@@ -561,7 +561,7 @@ footer {
   .mobile-nav {
     display: flex;
   }
-  .outside-container {
+  .outside-header-main .outside-container {
     justify-content: space-between;
     padding: 16px;
   }

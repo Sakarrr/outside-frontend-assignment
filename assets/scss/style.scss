@@ -669,9 +669,11 @@ footer {
     display: flex;
   }
 
-  .outside-container {
-    justify-content: space-between;
-    padding: 16px;
+  .outside-header-main {
+    .outside-container {
+      justify-content: space-between;
+      padding: 16px;
+    }
   }
 }
 
