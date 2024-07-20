@@ -227,7 +227,6 @@ body {
 
         ul {
           flex-direction: row;
-          gap: 14px;
         }
 
         li {
@@ -294,6 +293,10 @@ body {
       .right-content {
         margin: 0;
         width: unset;
+
+        ul {
+          gap: 14px;
+        }
 
         span {
           font-family: "Roboto";
@@ -380,6 +383,12 @@ body {
         width: unset;
       }
     }
+  }
+}
+
+.slider2 {
+  .splide__slide {
+    width: 32% !important;
   }
 }
 

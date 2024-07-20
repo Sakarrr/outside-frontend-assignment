@@ -138,6 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
       perPage: 4,
       pagination: false,
       arrows: false,
+      gap: 14,
       autoHeight: true,
       breakpoints: {
         1250: {
@@ -171,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       // Update next control
-      if (currentIndex < totalSlides - 1) {
+      if (currentIndex < totalSlides - splide.options.perPage) {
         nextSvg.classList.add('slide');
       } else {
         nextSvg.classList.remove('slide');
@@ -201,6 +202,7 @@ document.addEventListener('DOMContentLoaded', function() {
     pagination: false,
     focus: 'center',
     arrows: false,
+    gap: 14,
     autoHeight: true,
     breakpoints: {
       1250: {

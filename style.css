@@ -211,7 +211,6 @@ body {
 }
 .outside-header-main .outside-container .mega-menu .right-content ul {
   flex-direction: row;
-  gap: 14px;
 }
 .outside-header-main .outside-container .mega-menu .right-content li {
   padding: 0;
@@ -264,6 +263,9 @@ body {
 .outside-header-main .outside-container .theplayboxes-mega-menu .right-content {
   margin: 0;
   width: unset;
+}
+.outside-header-main .outside-container .theplayboxes-mega-menu .right-content ul {
+  gap: 14px;
 }
 .outside-header-main .outside-container .theplayboxes-mega-menu .right-content span {
   font-family: "Roboto";
@@ -329,6 +331,10 @@ body {
 .outside-header-main .outside-container .theplayboxes-mega-menu .left-content {
   flex-grow: 1;
   width: unset;
+}
+
+.slider2 .splide__slide {
+  width: 32% !important;
 }
 
 footer {
