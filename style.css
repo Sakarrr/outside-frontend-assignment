@@ -54,6 +54,16 @@ body {
   background: #0F234C;
   color: #fff;
   z-index: 99;
+  height: auto;
+}
+.outside-topbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #0F234C;
+  color: #fff;
+  z-index: 99;
 }
 .outside-topbar .outside-container {
   justify-content: space-between;

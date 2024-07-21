@@ -6,6 +6,19 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.outside-topbar').style.display = 'none'
   });
 
+  // Add fixed class to topbar on scroll
+  window.addEventListener('scroll', () => {
+    const topbar = document.querySelector('.outside-topbar');
+    const header = document.querySelector('header');
+    const headerBottom = header.getBoundingClientRect().bottom;
+
+    if (window.scrollY > headerBottom) {
+      topbar.classList.add('fixed');
+    } else {
+      topbar.classList.remove('fixed');
+    }
+  });
+
   // Display mega menu on each el hover
   const menuItems = document.querySelectorAll('.menu-item');
   hideAllMenus();
