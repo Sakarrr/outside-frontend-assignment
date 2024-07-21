@@ -247,12 +247,14 @@ body {
   color: #828282;
   font-style: italic;
   letter-spacing: 1.6px;
+  text-transform: uppercase;
   display: contents;
 }
 .outside-header-main .outside-container .mega-menu .right-content .product-card h5 {
   font-family: "MerriweatherSans";
   font-size: 18px;
   font-style: italic;
+  font-weight: 300;
   color: #0F234C;
   margin: 0;
 }
@@ -452,6 +454,7 @@ footer {
   gap: 0;
 }
 .content-section li {
+  font-weight: 300;
   color: #0F234C;
 }
 .content-section.playboxes-content .tabbed-content .header {
@@ -539,10 +542,14 @@ footer {
   background: #F2F2F2;
 }
 .mobile-menu .splide .product-card-content span, .sub-menu-content .splide .product-card-content span {
+  font-family: MerriweatherSans;
   font-size: 8px;
+  text-transform: uppercase;
 }
 .mobile-menu .splide .product-card-content h5, .sub-menu-content .splide .product-card-content h5 {
   font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
 }
 .mobile-menu .splide img, .sub-menu-content .splide img {
   width: 114px;
