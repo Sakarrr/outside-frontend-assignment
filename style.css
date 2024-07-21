@@ -333,10 +333,6 @@ body {
   width: unset;
 }
 
-.slider2 .splide__slide {
-  width: 32% !important;
-}
-
 footer {
   display: flex;
   justify-content: center;
