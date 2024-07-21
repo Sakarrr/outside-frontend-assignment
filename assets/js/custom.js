@@ -146,6 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         950: {
           perPage: 2,
+          gap:10,
         }
       }
     }).mount();

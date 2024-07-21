@@ -442,6 +442,9 @@ footer {
 .content-section ul a {
   font-style: italic;
 }
+.content-section ul.splide__list {
+  gap: 0;
+}
 .content-section li {
   color: #0F234C;
 }
@@ -515,7 +518,7 @@ footer {
   padding-bottom: 20px !important;
 }
 .mobile-menu .splide li, .sub-menu-content .splide li {
-  width: 136px !important;
+  width: 130px !important;
   border-bottom: 0px;
 }
 .mobile-menu .splide a, .sub-menu-content .splide a {

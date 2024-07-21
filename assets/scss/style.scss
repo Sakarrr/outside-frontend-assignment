@@ -510,6 +510,10 @@ footer {
     a {
       font-style: italic;
     }
+
+    &.splide__list {
+      gap: 0;
+    }
   }
 
   li {
@@ -611,7 +615,7 @@ footer {
     }
 
     li {
-      width: 136px !important;
+      width: 130px !important;
       border-bottom:0px;
     }
 
