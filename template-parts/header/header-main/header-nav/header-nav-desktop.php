@@ -1,16 +1,16 @@
 <div class="navbar">
 	<ul>
-		<li class="menu-item" data-menu="mealtime"><a href="#"> <?php echo esc_html__( 'Mealtime' ); ?></a>
-			<div class="mealtime-mega-menu mega-menu">
+		<li class="menu-item" data-menu="mealtime" tabindex="0" aria-haspopup="true" aria-expanded="false"><a href="#"> <?php echo esc_html__( 'Mealtime' ); ?></a>
+			<div class="mealtime-mega-menu mega-menu" role="menu" aria-hidden="true" >
 				<div class="left-content">
 					<h3>Shop Mealtime</h3>
 					<ul>
-						<li>High Chair</li>
-						<li>Booster</li>
-						<li>Tableware</li>
-						<li>Kitchenware</li>
-						<li>Mealtime Accessories</li>
-						<li>Bundle & Save</li>
+						<li tabindex="0">High Chair</li>
+						<li tabindex="0">Booster</li>
+						<li tabindex="0">Tableware</li>
+						<li tabindex="0">Kitchenware</li>
+						<li tabindex="0">Mealtime Accessories</li>
+						<li tabindex="0">Bundle & Save</li>
 					</ul>
 					<a href="#">All Mealtime</a>
 				</div>
@@ -30,7 +30,7 @@
 						<div class="splide slider1">
 							<div class="splide__track" >
 								<ul class="splide__list">
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-1.png'; ?> />
@@ -41,7 +41,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-2.png'; ?> />
@@ -52,7 +52,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-3.png'; ?> />
@@ -63,7 +63,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-4.png'; ?> />
@@ -74,7 +74,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-4.png'; ?> />
@@ -85,7 +85,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-4.png'; ?> />
@@ -103,15 +103,15 @@
 				</div>
 			</div>
 		</li>
-		<li class="menu-item" data-menu="playtime"><a href="#"><?php echo esc_html__( 'Playtime' ); ?></a>
-			<div class="playtime-mega-menu mega-menu">
+		<li class="menu-item" data-menu="playtime" tabindex="0" aria-haspopup="true" aria-expanded="false"><a href="#"><?php echo esc_html__( 'Playtime' ); ?></a>
+			<div class="playtime-mega-menu mega-menu" role="menu" aria-hidden="true">
 				<div class="left-content">
 					<h3>Shop Playtime</h3>
 					<ul>
-						<li>High Chair</li>
-						<li>Booster</li>
-						<li>Tableware</li>
-						<li>Bundle & Save</li>
+						<li tabindex="0">High Chair</li>
+						<li tabindex="0">Booster</li>
+						<li tabindex="0">Tableware</li>
+						<li tabindex="0">Bundle & Save</li>
 					</ul>
 					<a href="#">All Playtime</a>
 				</div>
@@ -131,7 +131,7 @@
 						<div class="splide slider1">
 							<div class="splide__track" >
 								<ul class="splide__list">
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-1.png'; ?> />
@@ -142,7 +142,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-2.png'; ?> />
@@ -153,7 +153,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-3.png'; ?> />
@@ -164,7 +164,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-4.png'; ?> />
@@ -175,7 +175,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-4.png'; ?> />
@@ -186,7 +186,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-4.png'; ?> />
@@ -197,7 +197,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-4.png'; ?> />
@@ -208,7 +208,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-4.png'; ?> />
@@ -226,19 +226,19 @@
 				</div>
 			</div>
 		</li>
-		<li class="menu-item" data-menu="bathtime"><a href="#"><?php echo esc_html__( 'Bathtime' ); ?></a>
-			<div class="bathtime-mega-menu mega-menu">
+		<li class="menu-item" data-menu="bathtime" tabindex="0" aria-haspopup="true" aria-expanded="false"><a href="#"><?php echo esc_html__( 'Bathtime' ); ?></a>
+			<div class="bathtime-mega-menu mega-menu" role="menu" aria-hidden="true">
 				<div class="left-content">
 					<h3>Shop Bathtime</h3>
 					<ul>
-						<li>High Chair</li>
-						<li>Booster</li>
-						<li>Tableware</li>
-						<li>Kitchenware</li>
-						<li>Mealtime Accessories</li>
-						<li>Bathroomware</li>
-						<li>Shampoo</li>
-						<li>Soaps</li>
+						<li tabindex="0">High Chair</li>
+						<li tabindex="0">Booster</li>
+						<li tabindex="0">Tableware</li>
+						<li tabindex="0">Kitchenware</li>
+						<li tabindex="0">Mealtime Accessories</li>
+						<li tabindex="0">Bathroomware</li>
+						<li tabindex="0">Shampoo</li>
+						<li tabindex="0">Soaps</li>
 					</ul>
 					<a href="#">All Bathtime</a>
 				</div>
@@ -251,7 +251,7 @@
 						<div class="splide slider2">
 							<div class="splide__track" >
 								<ul class="splide__list">
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-1.png'; ?> />
@@ -262,7 +262,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-2.png'; ?> />
@@ -273,7 +273,7 @@
 											</div>
 										</div>
 									</li>
-									<li class="splide__slide">
+									<li class="splide__slide" tabindex="0">
 										<div class="product-card">
 											<div class="product-card-image">
 												<img src=<?php echo get_template_directory_uri() . '/assets/images/image-3.png'; ?> />
@@ -291,17 +291,17 @@
 				</div>
 			</div>
 		</li>
-		<li class="menu-item new" data-menu="theplayboxes"><a href="#"><?php echo esc_html__( 'The Play Boxes' ); ?></a>
+		<li class="menu-item new" data-menu="theplayboxes" tabindex="0" aria-haspopup="true" aria-expanded="false"><a href="#"><?php echo esc_html__( 'The Play Boxes' ); ?></a>
 			<span>New!</span>
-			<div class="theplayboxes-mega-menu mega-menu">
+			<div class="theplayboxes-mega-menu mega-menu" role="menu" aria-hidden="true">
 				<div class="content--top">
 					<div class="left-content">
 						<h3>Shop Playboxes</h3>
 						<ul>
-							<li>Play Subscription</li>
-							<li>Newborn Box</li>
-							<li>Gift Play Boxes</li>
-							<li>Redeem Gift</li>
+							<li tabindex="0">Play Subscription</li>
+							<li tabindex="0">Newborn Box</li>
+							<li tabindex="0">Gift Play Boxes</li>
+							<li tabindex="0">Redeem Gift</li>
 						</ul>
 						<a href="#">All Play Boxes</a>
 					</div>
@@ -312,27 +312,27 @@
 						</div>
 
 						<div class="contents">
-							<div class="content">
+							<div class="content" tabindex="0">
 								<img src=<?php echo get_template_directory_uri() . '/assets/images/box-1.png'; ?> />
 								<p>0-12 weeks</p>
 							</div>
-							<div class="content">
+							<div class="content" tabindex="0">
 								<img src=<?php echo get_template_directory_uri() . '/assets/images/box-2.png'; ?> />
 								<p>3-4 mos</p>
 							</div>
-							<div class="content">
+							<div class="content" tabindex="0">
 								<img src=<?php echo get_template_directory_uri() . '/assets/images/box-3.png'; ?> />
 								<p>5-6 mos</p>
 							</div>
-							<div class="content">
+							<div class="content" tabindex="0">
 								<img src=<?php echo get_template_directory_uri() . '/assets/images/box-4.png'; ?> />
 								<p>7-8 mos</p>
 							</div>
-							<div class="content">
+							<div class="content" tabindex="0">
 								<img src=<?php echo get_template_directory_uri() . '/assets/images/box-5.png'; ?> />
 								<p>9-10 mos</p>
 							</div>
-							<div class="content">
+							<div class="content" tabindex="0">
 								<img src=<?php echo get_template_directory_uri() . '/assets/images/box-6.png'; ?> />
 								<p>11-12 mos</p>
 							</div>
@@ -346,7 +346,7 @@
 					<div class="content">
 						<ul>
 							<li>
-								<div class="product-card">
+								<div class="product-card" tabindex="0">
 									<div class="product-card-image">
 										<img src=<?php echo get_template_directory_uri() . '/assets/images/playbox-2.png'; ?> />
 									</div>
@@ -357,7 +357,7 @@
 									</div>
 							</li>
 							<li>
-								<div class="product-card">
+								<div class="product-card" tabindex="0"  >
 									<div class="product-card-image">
 										<img src=<?php echo get_template_directory_uri() . '/assets/images/playbox-1.png'; ?> />
 									</div>

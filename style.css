@@ -507,6 +507,8 @@ footer {
   font-family: Roboto;
   font-size: 14px;
   font-style: italic;
+  font-weight: 600;
+  color: #0F234C;
 }
 .mobile-menu .splide ul, .sub-menu-content .splide ul {
   flex-direction: row;

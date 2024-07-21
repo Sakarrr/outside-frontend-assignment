@@ -20,9 +20,33 @@ document.addEventListener('DOMContentLoaded', function() {
     item.addEventListener('mouseout', function() {
       hideAllMenus();
     });
+
+    item.addEventListener('focus', function() {
+      const menuItem = this.getAttribute('data-menu');
+      hideAllMenus();
+      document.querySelector(`.menu-item[data-menu="${menuItem}"] .mega-menu`).style.display = 'flex';
+    });
+
+    item.addEventListener('blur', function() {
+      // Prevent hiding menus when focus is lost but inside the mega menu
+      setTimeout(() => {
+        const megaMenu = document.querySelector(`.menu-item[data-menu="${this.getAttribute('data-menu')}"] .mega-menu`);
+        if (!megaMenu.contains(document.activeElement)) {
+          hideAllMenus();
+        }
+      }, 1000); // Delay to allow focus to move within the mega menu
+    });
+
+    // Ensure mega menus are hidden when focus is lost
+    item.addEventListener('focusout', function(e) {
+      const nextElement = e.relatedTarget;
+      if (!nextElement || !nextElement.closest('.menu-item') && !nextElement.closest('.mega-menu')) {
+        hideAllMenus();
+      }
+    });
   });
 
-  // Func to initially hide all mega menus
+  // Function to initially hide all mega menus
   function hideAllMenus() {
     const megaMenus = document.querySelectorAll('.mega-menu');
     megaMenus.forEach(menu => {
