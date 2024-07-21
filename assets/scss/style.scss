@@ -54,13 +54,14 @@ body {
 
   .outside-container {
     justify-content: space-between;
-    padding: 10px;
+    padding: 4px 8px;
 
     span {
       margin: 0 auto;
       font-family: "MerriweatherSans";
       font-style: italic;
       font-size: 14px;
+      font-weight: 300;
     }
   }
 }

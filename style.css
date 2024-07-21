@@ -67,13 +67,14 @@ body {
 }
 .outside-topbar .outside-container {
   justify-content: space-between;
-  padding: 10px;
+  padding: 4px 8px;
 }
 .outside-topbar .outside-container span {
   margin: 0 auto;
   font-family: "MerriweatherSans";
   font-style: italic;
   font-size: 14px;
+  font-weight: 300;
 }
 
 .outside-header-main {
