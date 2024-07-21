@@ -35,6 +35,9 @@ body {
   font-family: "MerriweatherSans";
   margin: auto;
 }
+body.no-scroll {
+  overflow: hidden;
+}
 
 #primary {
   max-width: 1440px;
@@ -366,7 +369,7 @@ footer {
   flex-direction: column;
   position: absolute;
   width: 100%;
-  height: auto;
+  height: 100vh;
   top: 100%;
   left: 0;
   background: #fff;
@@ -402,7 +405,9 @@ footer {
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
   z-index: 999;
 }
 .content-section .header {
