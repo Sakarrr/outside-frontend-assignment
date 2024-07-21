@@ -284,6 +284,7 @@ body {
           p {
             font-size: 14px;
             font-style: italic;
+            font-weight: 300;
             color: #3057A7;
             margin: 4px 0 0 0;
           }
@@ -340,12 +341,13 @@ body {
         }
 
         a {
-          color: #3057A7;
+          color: #0F234C;
           padding: 0;
 
           &.active {
+            color: #3057A7;
             font-style: normal;
-            border-bottom: 1px solid #3057A7;
+            border-bottom: 2px solid #3057A7;
           }
         }
 
@@ -363,6 +365,7 @@ body {
           align-items: center;
           cursor: pointer;
           transition: all 0.3s ease;
+          gap: 6px;
 
           &:hover {
             img{
@@ -372,6 +375,7 @@ body {
 
             p {
               color: #3057A7;
+              font-weight: 300;
             }
           }
         }
@@ -558,6 +562,7 @@ footer {
           display: flex;
           flex-direction: column;
           align-items: center;
+          gap: 10px;
         }
       }
     }

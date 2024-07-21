@@ -352,7 +352,7 @@
 									</div>
 									<div class="product-card-content">
 										<span>Best Seller</span>
-										<h4>First Bites Full Kit</h4>
+										<h5>First Bites Full Kit</h5>
 										<p>$40/month</p>
 									</div>
 							</li>
@@ -363,7 +363,7 @@
 									</div>
 									<div class="product-card-content">
 										<span>Best Seller</span>
-										<h4>First Bites Full Kit</h4>
+										<h5>First Bites Full Kit</h5>
 										<p>$40/month</p>
 									</div>
 								</div>
