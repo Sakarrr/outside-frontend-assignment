@@ -25,9 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   menuItems.forEach(item => {
     item.addEventListener('mouseover', function() {
-      const menuItem = this.getAttribute('data-menu');
-      hideAllMenus();
-      document.querySelector(`.menu-item[data-menu="${menuItem}"] .mega-menu`).style.display = 'flex';
+      showAllMenus()
     });
 
     item.addEventListener('mouseout', function() {
@@ -35,9 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     item.addEventListener('focus', function() {
-      const menuItem = this.getAttribute('data-menu');
-      hideAllMenus();
-      document.querySelector(`.menu-item[data-menu="${menuItem}"] .mega-menu`).style.display = 'flex';
+      showAllMenus()
     });
 
     item.addEventListener('blur', function() {
@@ -58,6 +54,12 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+
+  function showAllMenus() {
+    const menuItem = this.getAttribute('data-menu');
+    hideAllMenus();
+    document.querySelector(`.menu-item[data-menu="${menuItem}"] .mega-menu`).style.display = 'flex';
+  }
 
   // Function to initially hide all mega menus
   function hideAllMenus() {
