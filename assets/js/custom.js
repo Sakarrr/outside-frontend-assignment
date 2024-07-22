@@ -135,27 +135,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Stop scroll to body content on mobile menu open
-  const mobileNav = document.querySelector('.mobile-nav');
-  const body = document.body;
-
-  btnHamburger.addEventListener('click', () => {
-    mobileNav.classList.add('open');
-    body.classList.add('no-scroll');
-  });
-
-  btnClose.addEventListener('click', () => {
-    mobileNav.classList.remove('open');
-    body.classList.remove('no-scroll');
-  });
-
-  document.addEventListener('click', (event) => {
-    if (!mobileNav.contains(event.target) && !menuToggle.contains(event.target)) {
-      mobileNav.classList.remove('open');
-      body.classList.remove('no-scroll');
-    }
-  });
-
   // Synchronize Slider and Accordion
   const uagbSlider = document.querySelector('.uagb-swiper');
 
