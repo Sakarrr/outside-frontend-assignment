@@ -292,7 +292,7 @@
 			</div>
 		</li>
 		<li class="menu-item new" data-menu="theplayboxes" tabindex="0" aria-haspopup="true" aria-expanded="false"><a href="#"><?php echo esc_html__( 'The Play Boxes' ); ?></a>
-			<span>New!</span>
+			<span class="menu-tag">New!</span>
 			<div class="theplayboxes-mega-menu mega-menu" role="menu" aria-hidden="true">
 				<div class="content--top">
 					<div class="left-content">

@@ -117,6 +117,10 @@ body.no-scroll {
   background: #ECF3FF;
   border-radius: 100px;
 }
+.outside-header-main .outside-container .navbar > ul > li:hover .menu-tag {
+  border-radius: 100px;
+  box-shadow: 0 0 0 4px #ECF3FF;
+}
 .outside-header-main .outside-container .navbar .menu-item.new {
   margin-right: 30px;
 }
