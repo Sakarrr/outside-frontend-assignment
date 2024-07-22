@@ -136,13 +136,17 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // Stop scroll to body content on mobile menu open
-  const menuToggle = document.querySelector('.btn-hamburger');
   const mobileNav = document.querySelector('.mobile-nav');
   const body = document.body;
 
-  menuToggle.addEventListener('click', () => {
-    mobileNav.classList.toggle('open');
-    body.classList.toggle('no-scroll');
+  btnHamburger.addEventListener('click', () => {
+    mobileNav.classList.add('open');
+    body.classList.add('no-scroll');
+  });
+
+  btnClose.addEventListener('click', () => {
+    mobileNav.classList.remove('open');
+    body.classList.remove('no-scroll');
   });
 
   document.addEventListener('click', (event) => {
