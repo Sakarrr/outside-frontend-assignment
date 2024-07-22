@@ -39,11 +39,8 @@ body {
 }
 
 .outside-topbar {
-  position: sticky;
-  top: 0;
   background: $color-primray;
   color: #fff;
-  z-index: 99;
   height: auto;
 
   &.fixed {
@@ -53,7 +50,7 @@ body {
     width: 100%;
     background: $color-primray;
     color: #fff;
-    z-index: 99;
+    z-index: 9999;
   }
 
   .outside-container {
