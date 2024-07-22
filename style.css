@@ -371,9 +371,12 @@ footer {
   position: absolute;
   width: 100%;
   height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
   top: 100%;
   left: 0;
   background: #fff;
+  padding-bottom: 20px;
   z-index: 999;
 }
 .mobile-menu ul {
